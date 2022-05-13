@@ -41,18 +41,13 @@ p{
 .container{
     text-align: center;
 }
-.latest-work{ 
-    width: 365px;
-    float: left;
-    text-align: center;
-    margin-right: 35px;
+.full-work{
+    display: flex;
+    justify-content: space-evenly;
 }
-.latest-work:last-child{
-    margin-right: none;
-}
-
-.latest-work:first-child{
-    margin-left: 35px;
+.latest-work{
+    width: 320px;
+    height: auto;
 }
 .content-final{
     text-align: center;
